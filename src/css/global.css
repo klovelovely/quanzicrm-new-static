@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* Customized bootstrap style */
+/**
+ * Global - 通用样式
+ */
+html {
+  font-size: 100px; }
+
+body {
+  padding-top: 1.4rem;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", Tahoma, Arial, STHeiti, sans-serif; }
+
+.disn {
+  display: none; }
+
+/**
+ * Global - 导航
+ */
+.global-header .global-topbar {
+  background-color: #e1e1e1;
+  height: 40px; }
+  .global-header .global-topbar .nav a {
+    padding: 10px 15px; }
+.global-header .navbar-brand {
+  height: 80px; }
+.global-header .global-navbar .navbar-nav {
+  padding: 15px 0; }
+  .global-header .global-navbar .navbar-nav > li.reverse > a {
+    border-radius: 5px;
+    background: #050505;
+    color: #fff; }
+  .global-header .global-navbar .navbar-nav > .active > a, .global-header .global-navbar .navbar-nav > .active > a:hover, .global-header .global-navbar .navbar-nav > .active > a:focus {
+    color: #4799fa;
+    background-color: transparent; }
+
+/**
+ * Global slider
+ **/
+.global-slider {
+  position: relative; }
+  .global-slider .jumbotron {
+    padding: 1.5rem 0 2rem;
+    background-color: #050505;
+    color: #fff; }
+    .global-slider .jumbotron h1 {
+      text-shadow: 0 0.04rem black; }
+  .global-slider .side-panel {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(10%, -60%);
+    width: 500px;
+    min-height: 300px;
+    padding: .2rem;
+    background: #fff;
+    box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.4);
+    border-radius: .1rem; }
+    .global-slider .side-panel .side-form {
+      padding: 0 .2rem; }
+
+/**
+ * Global - 底部
+ **/
+.global-footer {
+  margin-top: 1rem;
+  padding: .6rem 0;
+  text-align: center;
+  line-height: 2;
+  background-color: #2f2f34;
+  color: #bdc3c7; }
+
+.global-footer a {
+  color: #bdc3c7; }
+
+.global-footer .partner {
+  padding-bottom: .2rem;
+  margin-bottom: .2rem;
+  border-bottom: 1px solid #3e4049; }
+
+.global-footer .partner .title {
+  font-weight: bold;
+  letter-spacing: .1em; }
+
+.global-footer .partner .title:after {
+  content: '';
+  display: block;
+  margin: .1rem;
+  border-top: 1px solid #222226;
+  border-bottom: 1px solid #3e4049; }
+
+.global-footer .partner .list .item {
+  display: inline-block; }
+
+.global-footer .partner .list .item:after {
+  content: '|';
+  display: inline-block;
+  margin: 0 .1rem; }
+
+.global-footer .partner .list .item:nth-last-child(1):after {
+  display: none; }
+
+.global-footer .copyright .list .item {
+  display: inline-block; }
+
+.global-footer .copyright .list .item:after {
+  content: '|';
+  display: inline-block;
+  margin: 0 .1rem; }
+
+.global-footer .copyright .list .item:nth-last-child(1):after {
+  display: none; }
+
+/*# sourceMappingURL=global.css.map */

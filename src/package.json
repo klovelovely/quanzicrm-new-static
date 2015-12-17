@@ -1,0 +1,17 @@
+{
+  "name": "quanzicrm-new-static",
+  "version": "1.0.0",
+  "description": "圈子管家新后台",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kavalon",
+  "license": "ISC",
+  "dependencies": {
+    "angular-animate": "^1.4.8",
+    "angular-ui-bootstrap": "^0.14.3",
+    "hammer": "0.0.5",
+    "jquery": "^1.11.3"
+  }
+}
